@@ -21,8 +21,7 @@
 
 \section{Концепция}
 \subsection{Введение}
-\noindent\textit{\textbf{\uline{Некогда процветающий край, ныне покрытый тенью проклятия…}}}
-
+\noindent\textit{\textbf{\underline{Некогда процветающий край, ныне покрытый тенью проклятия…}}}
 Междугорье, регион, скрытый за высокими горами, был местом гармонии и изобилия, пока жрецы злого бога не попытались бросить вызов самой жизни.  
 Вы — последний не заражённый, пробудившийся в сердце этой тьмы. Ваша цель — уничтожить последователей злого бога, поддерживающих проклятие, пока Междугорье окончательно не рухнуло.
 
@@ -41,10 +40,29 @@
 Эмоциональный резонанс: История главного героя, его борьба и жертвы ради спасения мира вызывают сильные эмоции у игроков, что способствует более глубокому погружению в игру.
 
 \subsection{Платформа}
-Windows, Mac, Linux
 
-\newpage
-
+\begin{table}
+    \centering
+    \footnotesize
+    \caption{Системные требования}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Платформа} & \textbf{Минимальные требования} & \textbf{Рекомендуемые требования} \\ \hline
+        Windows & 
+        \begin{tabular}[c]{@{}l@{}}OS: Windows 7+ \\ Процессор: Intel i3+ \\ Оперативная память: 2 ГБ \\ Графика: Nvidia 450 GTS+\\ Хранилище: 500 МБ \\ Дополнительно: DirectX 9.1+ или OpenGL3.2+\end{tabular} & 
+        \begin{tabular}[c]{@{}l@{}}OS: Windows 10+ \\ Процессор: Intel i5+ \\ Оперативная память: 4 ГБ \\ Графика: Nvidia GTX 660+ \\ Хранилище: 500 МБ \\ Дополнительно: DirectX 11+\end{tabular} \\ \hline
+        
+        Mac & 
+        \begin{tabular}[c]{@{}l@{}}OS: Mavericks 10.9\\ Оперативная память: 2 ГБ\\ Графика: OpenGL 3.2+\\ Хранилище: 500 МБ\end{tabular} & 
+        \begin{tabular}[c]{@{}l@{}}OS: Catalina 10.15+\\ Оперативная память: 4 ГБ\\ Графика: OpenGL 4.1+\\ Хранилище: 500 МБ\end{tabular} \\ \hline
+        
+        Linux & 
+        \begin{tabular}[c]{@{}l@{}}Оперативная память: 2 ГБ \\ Графика: Nvidia 450 GTS+ \\ Хранилище: 500 МБ \\ Дополнительно: OpenGL 3.2+\end{tabular} & 
+        \begin{tabular}[c]{@{}l@{}}Оперативная память: 4 ГБ \\ Графика: Nvidia GTX 660+\\ Хранилище: 500 МБ\end{tabular} \\ \hline
+    \end{tabular}
+    \label{tab:dead_cells_requirements}
+\end{table}
+\clearpage
 \section{Функциональная спецификация}
 \subsection{Принципы игры}
 \subsubsection{Суть игрового процесса}
@@ -52,7 +70,6 @@ Windows, Mac, Linux
 \subsubsection{Ход игры и сюжет}
 
 \subsection{Физическая модель}
-
 \subsection{Персонаж игрока}
 
 \subsection{Элементы игры}
