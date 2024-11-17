@@ -1,2 +1,2 @@
 # Educational-design-document
-Design document for gamedesign courses
+Design document for game design courses
